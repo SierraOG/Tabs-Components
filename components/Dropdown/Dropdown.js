@@ -19,7 +19,8 @@ class Dropdown {
   toggleContent() {
     
     // Toggle the ".dropdown-hidden" class off and on
-    this.content.classList.toggle('dropdown-hidden');
+    // this.content.classList.toggle('dropdown-hidden');
+    this.content.style.height === 150 + 'px' ? this.content.style.height = 0 + 'px' : this.content.style.height = 150 + 'px';
   }
 }
 
